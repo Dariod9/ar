@@ -2151,7 +2151,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": -24,
+                "x": -22,
                 "y": 344,
                 "z": 1
             },
@@ -2265,7 +2265,7 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "68448bd6-8da4-426f-8664-0c70ebc583d3",
                 "width": 51,
-                "x": -18,
+                "x": -17,
                 "y": 199,
                 "z": 1
             },
@@ -2994,6 +2994,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.9",
-    "zoom": 71
+    "version": "2.2.0",
+    "zoom": 142
 }
