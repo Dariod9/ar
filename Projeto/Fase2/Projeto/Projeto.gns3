@@ -93,7 +93,7 @@
                 "drawing_id": "34343095-3713-4edb-a00a-1a5d3f8ad8dd",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"144\" width=\"151\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN LocalD1: 021\nVLAN LocalD1: 121\nVLAN LocalD2: 030\nVLAN LocalD2: 110 \nVLAN E2ED1:   061\nVLAN E2ED2:   063\nVLAN Micro: __\nVLAN Conf.: __</text></svg>",
+                "svg": "<svg height=\"127\" width=\"151\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN LocalD1: 021\nVLAN LocalD1: 121\nVLAN LocalD2: 030\nVLAN LocalD2: 110 \nVLAN E2ED1:   061\nVLAN Micro: __\nVLAN Conf.: __</text></svg>",
                 "x": -179,
                 "y": -513,
                 "z": 2
@@ -202,7 +202,7 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": 19,
+                            "x": 17,
                             "y": -15
                         },
                         "node_id": "b8f7adeb-507d-4255-a261-df43dbad6c16",
@@ -610,37 +610,6 @@
                         },
                         "node_id": "28ead64e-e6c3-4c96-9d75-0a36763d4306",
                         "port_number": 1
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "d8a92300-337d-41cc-a3da-7db73880a1cf",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": 47,
-                            "y": 65
-                        },
-                        "node_id": "0f214ddb-7af0-4fa3-b30b-fc49ab25f22d",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e2",
-                            "x": 0,
-                            "y": -19
-                        },
-                        "node_id": "67f211ef-bbaa-411b-bf21-4808e5bce789",
-                        "port_number": 2
                     }
                 ],
                 "suspend": false
@@ -1450,6 +1419,37 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "27710692-3d6b-4c05-a4ec-a3f84f5e00f8",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 42,
+                            "y": 68
+                        },
+                        "node_id": "0f214ddb-7af0-4fa3-b30b-fc49ab25f22d",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 13,
+                            "y": -14
+                        },
+                        "node_id": "d003a9fa-bd65-4fde-896a-81d59cb4a752",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -1464,12 +1464,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "RL1",
-                    "x": 15,
-                    "y": -25
+                    "text": "Lis_ISP_PT1",
+                    "x": -32,
+                    "y": 53
                 },
                 "locked": false,
-                "name": "RL1",
+                "name": "Lis_ISP_PT1",
                 "node_id": "9cd70ea9-f1d4-4961-b30c-0596a14a5f96",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -1533,12 +1533,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "RL2",
-                    "x": 15,
-                    "y": -25
+                    "text": "Lis_ISP_PT2",
+                    "x": -35,
+                    "y": 51
                 },
                 "locked": false,
-                "name": "RL2",
+                "name": "Lis_ISP_PT2",
                 "node_id": "b8f7adeb-507d-4255-a261-df43dbad6c16",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -1587,8 +1587,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": -590,
-                "y": 159,
+                "x": -609,
+                "y": 155,
                 "z": 1
             },
             {
@@ -1648,7 +1648,7 @@
                             "name": "Ethernet0",
                             "port_number": 0,
                             "type": "access",
-                            "vlan": 21
+                            "vlan": 1
                         },
                         {
                             "name": "Ethernet1",
@@ -1766,8 +1766,8 @@
                 "symbol": ":/symbols/affinity/square/gray/satellite_dish.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 60,
-                "x": -566,
-                "y": -248,
+                "x": -575,
+                "y": -212,
                 "z": 1
             },
             {
@@ -1781,12 +1781,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "RB1",
-                    "x": 14,
-                    "y": -25
+                    "text": "Bos_ISP_US1",
+                    "x": -93,
+                    "y": -15
                 },
                 "locked": false,
-                "name": "RB1",
+                "name": "Bos_ISP_US1",
                 "node_id": "7e438ff7-9a7b-4bb7-884c-2e6ce1a35f05",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -1835,8 +1835,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": 396,
-                "y": 163,
+                "x": 422,
+                "y": 154,
                 "z": 1
             },
             {
@@ -1850,12 +1850,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "RB2",
-                    "x": 14,
-                    "y": -25
+                    "text": "Bos_ISP_US2",
+                    "x": 54,
+                    "y": 50
                 },
                 "locked": false,
-                "name": "RB2",
+                "name": "Bos_ISP_US2",
                 "node_id": "7bef3187-1314-4a96-aef9-5e7749e38b59",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -1904,8 +1904,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": 646,
-                "y": 167,
+                "x": 604,
+                "y": 154,
                 "z": 1
             },
             {
@@ -2028,12 +2028,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "RA1",
-                    "x": 14,
-                    "y": -25
+                    "text": "Av_ISP_PT1",
+                    "x": -82,
+                    "y": -10
                 },
                 "locked": false,
-                "name": "RA1",
+                "name": "Av_ISP_PT1",
                 "node_id": "5b439bda-8b05-4d0a-a6a4-8707b7458a79",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -2082,8 +2082,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": -238,
-                "y": 346,
+                "x": -223,
+                "y": 336,
                 "z": 1
             },
             {
@@ -2097,12 +2097,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "RA2",
-                    "x": 14,
-                    "y": -25
+                    "text": "Av_ISP_PT2",
+                    "x": 68,
+                    "y": 11
                 },
                 "locked": false,
-                "name": "RA2",
+                "name": "Av_ISP_PT2",
                 "node_id": "18effaf3-c8b4-4c6a-a1d9-5159001f4169",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -2151,8 +2151,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": -22,
-                "y": 344,
+                "x": -16,
+                "y": 341,
                 "z": 1
             },
             {
@@ -2281,8 +2281,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "SWAD1_1",
-                    "x": -13,
-                    "y": -25
+                    "x": -82,
+                    "y": 8
                 },
                 "locked": false,
                 "name": "SWAD1_1",
@@ -2704,8 +2704,8 @@
                 "symbol": ":/symbols/affinity/square/gray/satellite_dish.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 60,
-                "x": -413,
-                "y": -247,
+                "x": -409,
+                "y": -204,
                 "z": 1
             },
             {
@@ -2945,8 +2945,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "SWAD1_2",
-                    "x": -13,
-                    "y": -25
+                    "x": 50,
+                    "y": 0
                 },
                 "locked": false,
                 "name": "SWAD1_2",
@@ -2986,14 +2986,14 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "68448bd6-8da4-426f-8664-0c70ebc583d3",
                 "width": 51,
-                "x": -202,
-                "y": 35,
+                "x": -197,
+                "y": 29,
                 "z": 1
             }
         ]
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.0",
-    "zoom": 142
+    "version": "2.2.9",
+    "zoom": 50
 }
