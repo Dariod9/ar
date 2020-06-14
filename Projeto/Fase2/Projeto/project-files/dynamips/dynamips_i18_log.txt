@@ -1,0 +1,24 @@
+Jun 14 13:36:30.312 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 14 13:36:30.312 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56981.
+Jun 14 13:36:30.322 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 14 13:36:30.323 HYPERVISOR: exec_cmd: hypervisor working_dir /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips 
+Jun 14 13:36:30.323 GENERAL: working_dir=/home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips
+Jun 14 13:36:30.323 HYPERVISOR: exec_cmd: ethsw create ISP 
+Jun 14 13:36:34.974 HYPERVISOR: exec_cmd: nio create_udp udp-1fd29208-9fe6-4887-8d1f-f317ed2467ef 10087 127.0.0.1 10086 
+Jun 14 13:36:34.974 HYPERVISOR: exec_cmd: ethsw add_nio ISP udp-1fd29208-9fe6-4887-8d1f-f317ed2467ef 
+Jun 14 13:36:34.991 HYPERVISOR: exec_cmd: ethsw set_access_port ISP udp-1fd29208-9fe6-4887-8d1f-f317ed2467ef 1 
+Jun 14 13:36:35.058 HYPERVISOR: exec_cmd: nio create_udp udp-1b724b35-22d1-4db6-920b-77b7bb61b8c5 10091 127.0.0.1 10090 
+Jun 14 13:36:35.058 HYPERVISOR: exec_cmd: ethsw add_nio ISP udp-1b724b35-22d1-4db6-920b-77b7bb61b8c5 
+Jun 14 13:36:35.072 HYPERVISOR: exec_cmd: ethsw set_access_port ISP udp-1b724b35-22d1-4db6-920b-77b7bb61b8c5 1 
+Jun 14 13:36:35.134 HYPERVISOR: exec_cmd: nio create_udp udp-cea8d18e-30d2-4f08-9fea-5d41f72c448d 10095 127.0.0.1 10094 
+Jun 14 13:36:35.134 HYPERVISOR: exec_cmd: ethsw add_nio ISP udp-cea8d18e-30d2-4f08-9fea-5d41f72c448d 
+Jun 14 13:36:35.152 HYPERVISOR: exec_cmd: ethsw set_access_port ISP udp-cea8d18e-30d2-4f08-9fea-5d41f72c448d 1 
+Jun 14 13:36:35.230 HYPERVISOR: exec_cmd: nio create_udp udp-9d85ddb4-37be-47d9-a91c-fb5f868de5b2 10099 127.0.0.1 10098 
+Jun 14 13:36:35.231 HYPERVISOR: exec_cmd: ethsw add_nio ISP udp-9d85ddb4-37be-47d9-a91c-fb5f868de5b2 
+Jun 14 13:36:35.232 HYPERVISOR: exec_cmd: ethsw set_access_port ISP udp-9d85ddb4-37be-47d9-a91c-fb5f868de5b2 1 
+Jun 14 13:36:35.295 HYPERVISOR: exec_cmd: nio create_udp udp-43c318f8-2444-4f3e-9573-154126347829 10103 127.0.0.1 10102 
+Jun 14 13:36:35.295 HYPERVISOR: exec_cmd: ethsw add_nio ISP udp-43c318f8-2444-4f3e-9573-154126347829 
+Jun 14 13:36:35.312 HYPERVISOR: exec_cmd: ethsw set_access_port ISP udp-43c318f8-2444-4f3e-9573-154126347829 1 
+Jun 14 13:36:35.379 HYPERVISOR: exec_cmd: nio create_udp udp-6affa355-512f-4725-950d-1c690162b565 10107 127.0.0.1 10106 
+Jun 14 13:36:35.379 HYPERVISOR: exec_cmd: ethsw add_nio ISP udp-6affa355-512f-4725-950d-1c690162b565 
+Jun 14 13:36:35.393 HYPERVISOR: exec_cmd: ethsw set_access_port ISP udp-6affa355-512f-4725-950d-1c690162b565 1 

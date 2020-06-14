@@ -1,0 +1,21 @@
+Jun 14 13:36:30.246 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 14 13:36:30.246 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52833.
+Jun 14 13:36:30.257 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 14 13:36:30.257 HYPERVISOR: exec_cmd: hypervisor working_dir /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips 
+Jun 14 13:36:30.257 GENERAL: working_dir=/home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips
+Jun 14 13:36:30.257 HYPERVISOR: exec_cmd: ethsw create Switch2 
+Jun 14 13:36:34.194 HYPERVISOR: exec_cmd: nio create_udp udp-43984a5e-46fc-4899-8288-88d3642dcc10 10064 127.0.0.1 10065 
+Jun 14 13:36:34.195 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-43984a5e-46fc-4899-8288-88d3642dcc10 
+Jun 14 13:36:34.203 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-43984a5e-46fc-4899-8288-88d3642dcc10 1 
+Jun 14 13:36:34.264 HYPERVISOR: exec_cmd: nio create_udp udp-aa2cc692-beb8-4a06-a2a9-3d4ff5ba9ba7 10068 127.0.0.1 10069 
+Jun 14 13:36:34.264 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-aa2cc692-beb8-4a06-a2a9-3d4ff5ba9ba7 
+Jun 14 13:36:34.283 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch2 udp-aa2cc692-beb8-4a06-a2a9-3d4ff5ba9ba7 1 
+Jun 14 13:36:34.805 HYPERVISOR: exec_cmd: nio create_udp udp-795810ec-6540-44bd-9200-7a309c8a67f7 10082 127.0.0.1 10083 
+Jun 14 13:36:34.805 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-795810ec-6540-44bd-9200-7a309c8a67f7 
+Jun 14 13:36:34.825 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-795810ec-6540-44bd-9200-7a309c8a67f7 61 
+Jun 14 13:36:34.898 HYPERVISOR: exec_cmd: nio create_udp udp-1b16edb8-976a-458e-b83b-e8785b6b5112 10084 127.0.0.1 10085 
+Jun 14 13:36:34.898 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-1b16edb8-976a-458e-b83b-e8785b6b5112 
+Jun 14 13:36:34.905 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-1b16edb8-976a-458e-b83b-e8785b6b5112 30 
+Jun 14 13:36:35.529 HYPERVISOR: exec_cmd: nio create_udp udp-7b25c9de-7645-4d45-bc32-4c2e9d706eea 10112 127.0.0.1 10113 
+Jun 14 13:36:35.529 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-7b25c9de-7645-4d45-bc32-4c2e9d706eea 
+Jun 14 13:36:35.548 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-7b25c9de-7645-4d45-bc32-4c2e9d706eea 110 

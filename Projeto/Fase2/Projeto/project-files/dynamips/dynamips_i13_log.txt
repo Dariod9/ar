@@ -1,0 +1,59 @@
+Jun 14 13:36:30.175 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 14 13:36:30.175 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 39449.
+Jun 14 13:36:30.185 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 14 13:36:30.185 HYPERVISOR: exec_cmd: hypervisor working_dir /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips 
+Jun 14 13:36:30.185 GENERAL: working_dir=/home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips
+Jun 14 13:36:30.185 HYPERVISOR: exec_cmd: hypervisor working_dir /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/51cd8134-a446-4a71-a046-ca02ac97bc7d 
+Jun 14 13:36:30.185 GENERAL: working_dir=/home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/51cd8134-a446-4a71-a046-ca02ac97bc7d
+Jun 14 13:36:30.185 HYPERVISOR: exec_cmd: vm create SWAD2_1 12 c3725 
+Jun 14 13:36:30.185 VM: VM SWAD2_1 created.
+Jun 14 13:36:30.186 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWAD2_1 5017 
+Jun 14 13:36:30.186 HYPERVISOR: exec_cmd: c3725 get_mac_addr SWAD2_1 
+Jun 14 13:36:30.186 HYPERVISOR: exec_cmd: vm set_disk0 SWAD2_1 1 
+Jun 14 13:36:30.186 HYPERVISOR: exec_cmd: vm get_status SWAD2_1 
+Jun 14 13:36:30.186 HYPERVISOR: exec_cmd: vm set_idle_pc SWAD2_1 0x60a68e70 
+Jun 14 13:36:30.187 HYPERVISOR: exec_cmd: vm set_ios SWAD2_1 /home/samuel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 14 13:36:30.187 HYPERVISOR: exec_cmd: c3725 set_mac_addr SWAD2_1 c20c.1a67.0000 
+Jun 14 13:36:30.187 HYPERVISOR: exec_cmd: vm set_nvram SWAD2_1 256 
+Jun 14 13:36:30.187 HYPERVISOR: exec_cmd: vm get_status SWAD2_1 
+Jun 14 13:36:30.187 HYPERVISOR: exec_cmd: vm slot_add_binding SWAD2_1 1 0 NM-16ESW 
+Jun 14 13:36:33.337 HYPERVISOR: exec_cmd: nio create_udp udp-57dbdb73-f861-4968-993f-7ad493ef41ed 10056 127.0.0.1 10057 
+Jun 14 13:36:33.553 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWAD2_1 1 0 udp-57dbdb73-f861-4968-993f-7ad493ef41ed 
+Jun 14 13:36:33.554 HYPERVISOR: exec_cmd: vm get_status SWAD2_1 
+Jun 14 13:36:34.209 HYPERVISOR: exec_cmd: nio create_udp udp-fdc4c6a3-4791-4e6d-bf7c-2f3186038e3f 10066 127.0.0.1 10067 
+Jun 14 13:36:34.210 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWAD2_1 1 1 udp-fdc4c6a3-4791-4e6d-bf7c-2f3186038e3f 
+Jun 14 13:36:34.210 HYPERVISOR: exec_cmd: vm get_status SWAD2_1 
+Jun 14 13:36:36.262 HYPERVISOR: exec_cmd: nio create_udp udp-af40087b-51a3-44fa-844b-2d4b9ddbcf11 10150 127.0.0.1 10151 
+Jun 14 13:36:36.263 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWAD2_1 1 2 udp-af40087b-51a3-44fa-844b-2d4b9ddbcf11 
+Jun 14 13:36:36.263 HYPERVISOR: exec_cmd: vm get_status SWAD2_1 
+Jun 14 13:36:36.330 HYPERVISOR: exec_cmd: nio create_udp udp-d54c63bc-8986-4e41-8cfe-90d1678ce54f 10156 127.0.0.1 10157 
+Jun 14 13:36:36.331 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWAD2_1 1 3 udp-d54c63bc-8986-4e41-8cfe-90d1678ce54f 
+Jun 14 13:36:36.331 HYPERVISOR: exec_cmd: vm get_status SWAD2_1 
+Jun 14 13:37:04.649 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 14 13:37:04.650 VM: VM Ghost created.
+Jun 14 13:37:04.652 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/samuel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 14 13:37:04.653 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 14 13:37:04.654 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 14 13:37:04.655 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 14 13:37:04.675 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Jun 14 13:37:04.676 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 14 13:37:05.447 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 14 13:37:05.448 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jun 14 13:37:05.501 VM: VM Ghost shutdown.
+Jun 14 13:37:05.502 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jun 14 13:37:05.503 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 14 13:37:05.503 VM: VM Ghost destroyed.
+Jun 14 13:37:05.504 HYPERVISOR: exec_cmd: vm set_ghost_status SWAD2_1 2 
+Jun 14 13:37:05.505 HYPERVISOR: exec_cmd: vm set_ghost_file SWAD2_1 /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 14 13:37:05.505 HYPERVISOR: exec_cmd: vm get_status SWAD2_1 
+Jun 14 13:37:05.506 HYPERVISOR: exec_cmd: vm set_config SWAD2_1 configs/i12_startup-config.cfg 
+Jun 14 13:37:05.506 HYPERVISOR: exec_cmd: vm start SWAD2_1 
+Jun 14 13:39:42.688 HYPERVISOR: exec_cmd: vm set_ghost_status SWAD2_1 2 
+Jun 14 13:39:42.689 HYPERVISOR: exec_cmd: vm set_ghost_file SWAD2_1 /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 14 13:39:42.689 HYPERVISOR: exec_cmd: vm get_status SWAD2_1 
+Jun 14 13:44:05.802 HYPERVISOR: exec_cmd: vm extract_config SWAD2_1 
+Jun 14 13:44:05.805 HYPERVISOR: exec_cmd: vm extract_config SWAD2_1 
+Jun 14 13:47:47.239 HYPERVISOR: exec_cmd: vm get_status SWAD2_1 
+Jun 14 13:47:47.240 HYPERVISOR: exec_cmd: vm stop SWAD2_1 
+Jun 14 13:47:47.373 VM: VM SWAD2_1 shutdown.
+Jun 14 13:47:47.373 HYPERVISOR: exec_cmd: vm extract_config SWAD2_1 

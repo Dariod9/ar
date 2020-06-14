@@ -1,0 +1,46 @@
+Jun 14 13:36:29.915 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 14 13:36:29.915 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54053.
+Jun 14 13:36:29.925 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 14 13:36:29.925 HYPERVISOR: exec_cmd: hypervisor working_dir /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips 
+Jun 14 13:36:29.925 GENERAL: working_dir=/home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips
+Jun 14 13:36:29.926 HYPERVISOR: exec_cmd: hypervisor working_dir /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/7e438ff7-9a7b-4bb7-884c-2e6ce1a35f05 
+Jun 14 13:36:29.926 GENERAL: working_dir=/home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/7e438ff7-9a7b-4bb7-884c-2e6ce1a35f05
+Jun 14 13:36:29.926 HYPERVISOR: exec_cmd: vm create Bos_ISP_US1 4 c7200 
+Jun 14 13:36:29.926 VM: VM Bos_ISP_US1 created.
+Jun 14 13:36:29.926 HYPERVISOR: exec_cmd: vm set_con_tcp_port Bos_ISP_US1 5006 
+Jun 14 13:36:29.926 HYPERVISOR: exec_cmd: c7200 get_mac_addr Bos_ISP_US1 
+Jun 14 13:36:29.927 HYPERVISOR: exec_cmd: vm get_status Bos_ISP_US1 
+Jun 14 13:36:29.927 HYPERVISOR: exec_cmd: vm slot_add_binding Bos_ISP_US1 0 0 C7200-IO-FE 
+Jun 14 13:36:29.927 HYPERVISOR: exec_cmd: vm set_disk0 Bos_ISP_US1 0 
+Jun 14 13:36:29.927 HYPERVISOR: exec_cmd: vm get_status Bos_ISP_US1 
+Jun 14 13:36:29.927 HYPERVISOR: exec_cmd: vm set_idle_pc Bos_ISP_US1 0x60608040 
+Jun 14 13:36:29.928 HYPERVISOR: exec_cmd: vm set_ios Bos_ISP_US1 /home/samuel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 14 13:36:29.928 HYPERVISOR: exec_cmd: c7200 set_mac_addr Bos_ISP_US1 ca04.17a3.0000 
+Jun 14 13:36:29.928 HYPERVISOR: exec_cmd: vm set_nvram Bos_ISP_US1 512 
+Jun 14 13:36:29.928 HYPERVISOR: exec_cmd: vm set_ram Bos_ISP_US1 512 
+Jun 14 13:36:29.929 HYPERVISOR: exec_cmd: vm get_status Bos_ISP_US1 
+Jun 14 13:36:29.929 HYPERVISOR: exec_cmd: vm slot_remove_binding Bos_ISP_US1 0 0 
+Jun 14 13:36:29.929 HYPERVISOR: exec_cmd: vm get_status Bos_ISP_US1 
+Jun 14 13:36:29.929 HYPERVISOR: exec_cmd: vm slot_add_binding Bos_ISP_US1 0 0 C7200-IO-2FE 
+Jun 14 13:36:29.929 HYPERVISOR: exec_cmd: vm get_status Bos_ISP_US1 
+Jun 14 13:36:29.929 HYPERVISOR: exec_cmd: vm slot_add_binding Bos_ISP_US1 1 0 PA-2FE-TX 
+Jun 14 13:36:31.580 HYPERVISOR: exec_cmd: nio create_udp udp-57813f8a-8a95-4729-b8df-a518aa694e16 10024 127.0.0.1 10025 
+Jun 14 13:36:31.791 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Bos_ISP_US1 0 0 udp-57813f8a-8a95-4729-b8df-a518aa694e16 
+Jun 14 13:36:31.792 HYPERVISOR: exec_cmd: vm get_status Bos_ISP_US1 
+Jun 14 13:36:32.167 HYPERVISOR: exec_cmd: nio create_udp udp-8b59db08-5468-48af-8307-4639409ec2f7 10032 127.0.0.1 10033 
+Jun 14 13:36:32.167 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Bos_ISP_US1 0 1 udp-8b59db08-5468-48af-8307-4639409ec2f7 
+Jun 14 13:36:32.168 HYPERVISOR: exec_cmd: vm get_status Bos_ISP_US1 
+Jun 14 13:36:35.288 HYPERVISOR: exec_cmd: nio create_udp udp-d0cc4998-cf3b-4747-872b-2bfa01fcd897 10104 127.0.0.1 10105 
+Jun 14 13:36:35.289 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Bos_ISP_US1 1 0 udp-d0cc4998-cf3b-4747-872b-2bfa01fcd897 
+Jun 14 13:36:35.289 HYPERVISOR: exec_cmd: vm get_status Bos_ISP_US1 
+Jun 14 13:39:42.123 HYPERVISOR: exec_cmd: vm set_ghost_status Bos_ISP_US1 2 
+Jun 14 13:39:42.128 HYPERVISOR: exec_cmd: vm set_ghost_file Bos_ISP_US1 /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 14 13:39:42.131 HYPERVISOR: exec_cmd: vm get_status Bos_ISP_US1 
+Jun 14 13:39:42.136 HYPERVISOR: exec_cmd: vm set_config Bos_ISP_US1 configs/i4_startup-config.cfg configs/i4_private-config.cfg 
+Jun 14 13:39:42.137 HYPERVISOR: exec_cmd: vm start Bos_ISP_US1 
+Jun 14 13:40:12.378 HYPERVISOR: exec_cmd: vm extract_config Bos_ISP_US1 
+Jun 14 13:40:42.380 HYPERVISOR: exec_cmd: vm extract_config Bos_ISP_US1 
+Jun 14 13:47:46.568 HYPERVISOR: exec_cmd: vm get_status Bos_ISP_US1 
+Jun 14 13:47:46.569 HYPERVISOR: exec_cmd: vm stop Bos_ISP_US1 
+Jun 14 13:47:46.698 VM: VM Bos_ISP_US1 shutdown.
+Jun 14 13:47:46.703 HYPERVISOR: exec_cmd: vm extract_config Bos_ISP_US1 

@@ -1,0 +1,43 @@
+Jun 14 13:36:30.273 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 14 13:36:30.273 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52187.
+Jun 14 13:36:30.284 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 14 13:36:30.284 HYPERVISOR: exec_cmd: hypervisor working_dir /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips 
+Jun 14 13:36:30.284 GENERAL: working_dir=/home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips
+Jun 14 13:36:30.284 HYPERVISOR: exec_cmd: hypervisor working_dir /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/0f214ddb-7af0-4fa3-b30b-fc49ab25f22d 
+Jun 14 13:36:30.284 GENERAL: working_dir=/home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/0f214ddb-7af0-4fa3-b30b-fc49ab25f22d
+Jun 14 13:36:30.284 HYPERVISOR: exec_cmd: vm create RAMicrO 14 c7200 
+Jun 14 13:36:30.284 VM: VM RAMicrO created.
+Jun 14 13:36:30.285 HYPERVISOR: exec_cmd: vm set_con_tcp_port RAMicrO 5022 
+Jun 14 13:36:30.285 HYPERVISOR: exec_cmd: c7200 get_mac_addr RAMicrO 
+Jun 14 13:36:30.285 HYPERVISOR: exec_cmd: vm get_status RAMicrO 
+Jun 14 13:36:30.285 HYPERVISOR: exec_cmd: vm slot_add_binding RAMicrO 0 0 C7200-IO-FE 
+Jun 14 13:36:30.285 HYPERVISOR: exec_cmd: vm set_disk0 RAMicrO 0 
+Jun 14 13:36:30.285 HYPERVISOR: exec_cmd: vm get_status RAMicrO 
+Jun 14 13:36:30.286 HYPERVISOR: exec_cmd: vm set_idle_pc RAMicrO 0x60608040 
+Jun 14 13:36:30.286 HYPERVISOR: exec_cmd: vm set_ios RAMicrO /home/samuel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 14 13:36:30.286 HYPERVISOR: exec_cmd: c7200 set_mac_addr RAMicrO ca0e.1d27.0000 
+Jun 14 13:36:30.286 HYPERVISOR: exec_cmd: vm set_nvram RAMicrO 512 
+Jun 14 13:36:30.287 HYPERVISOR: exec_cmd: vm set_ram RAMicrO 512 
+Jun 14 13:36:30.287 HYPERVISOR: exec_cmd: vm get_status RAMicrO 
+Jun 14 13:36:30.287 HYPERVISOR: exec_cmd: vm slot_remove_binding RAMicrO 0 0 
+Jun 14 13:36:30.287 HYPERVISOR: exec_cmd: vm get_status RAMicrO 
+Jun 14 13:36:30.287 HYPERVISOR: exec_cmd: vm slot_add_binding RAMicrO 0 0 C7200-IO-2FE 
+Jun 14 13:36:30.287 HYPERVISOR: exec_cmd: vm get_status RAMicrO 
+Jun 14 13:36:30.288 HYPERVISOR: exec_cmd: vm slot_add_binding RAMicrO 1 0 PA-2FE-TX 
+Jun 14 13:36:34.355 HYPERVISOR: exec_cmd: nio create_udp udp-7702e528-5d35-434a-9275-79d8c59f072f 10076 127.0.0.1 10077 
+Jun 14 13:36:34.566 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RAMicrO 0 1 udp-7702e528-5d35-434a-9275-79d8c59f072f 
+Jun 14 13:36:34.566 HYPERVISOR: exec_cmd: vm get_status RAMicrO 
+Jun 14 13:36:36.746 HYPERVISOR: exec_cmd: nio create_udp udp-2f12cba8-7f1f-44f2-ab35-925e85174177 10192 127.0.0.1 10193 
+Jun 14 13:36:36.747 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RAMicrO 0 0 udp-2f12cba8-7f1f-44f2-ab35-925e85174177 
+Jun 14 13:36:36.747 HYPERVISOR: exec_cmd: vm get_status RAMicrO 
+Jun 14 13:39:42.761 HYPERVISOR: exec_cmd: vm set_ghost_status RAMicrO 2 
+Jun 14 13:39:42.761 HYPERVISOR: exec_cmd: vm set_ghost_file RAMicrO /home/samuel/Universidade/ArProject/ar/Projeto/Fase2/Projeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 14 13:39:42.762 HYPERVISOR: exec_cmd: vm get_status RAMicrO 
+Jun 14 13:39:42.762 HYPERVISOR: exec_cmd: vm set_config RAMicrO configs/i14_startup-config.cfg configs/i14_private-config.cfg 
+Jun 14 13:39:42.762 HYPERVISOR: exec_cmd: vm start RAMicrO 
+Jun 14 13:40:12.996 HYPERVISOR: exec_cmd: vm extract_config RAMicrO 
+Jun 14 13:40:42.998 HYPERVISOR: exec_cmd: vm extract_config RAMicrO 
+Jun 14 13:47:47.380 HYPERVISOR: exec_cmd: vm get_status RAMicrO 
+Jun 14 13:47:47.381 HYPERVISOR: exec_cmd: vm stop RAMicrO 
+Jun 14 13:47:47.489 VM: VM RAMicrO shutdown.
+Jun 14 13:47:47.490 HYPERVISOR: exec_cmd: vm extract_config RAMicrO 
