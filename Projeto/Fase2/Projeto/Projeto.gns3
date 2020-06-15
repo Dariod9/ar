@@ -1789,7 +1789,7 @@
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
                 "x": -850,
-                "y": 159,
+                "y": 157,
                 "z": 1
             },
             {
@@ -2036,8 +2036,8 @@
                 "symbol": ":/symbols/affinity/square/gray/satellite_dish.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 60,
-                "x": -575,
-                "y": -212,
+                "x": -578,
+                "y": -216,
                 "z": 1
             },
             {
@@ -2421,8 +2421,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": 71,
-                "y": 327,
+                "x": 69,
+                "y": 325,
                 "z": 1
             },
             {
@@ -2592,7 +2592,7 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "68448bd6-8da4-426f-8664-0c70ebc583d3",
                 "width": 51,
-                "x": -337,
+                "x": -338,
                 "y": 34,
                 "z": 1
             },
@@ -2976,8 +2976,8 @@
                 "symbol": ":/symbols/affinity/square/gray/satellite_dish.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 60,
-                "x": -408,
-                "y": -203,
+                "x": -432,
+                "y": -216,
                 "z": 1
             },
             {
@@ -3531,6 +3531,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.0",
+    "version": "2.2.9",
     "zoom": 83
 }
