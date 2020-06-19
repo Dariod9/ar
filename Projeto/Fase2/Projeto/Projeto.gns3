@@ -2468,8 +2468,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "SWAC1",
-                    "x": -7,
-                    "y": -30
+                    "x": -63,
+                    "y": 7
                 },
                 "locked": false,
                 "name": "SWAC1",
@@ -2525,8 +2525,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "SWAC2",
-                    "x": -4,
-                    "y": -25
+                    "x": 110,
+                    "y": 15
                 },
                 "locked": false,
                 "name": "SWAC2",
@@ -3562,6 +3562,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.0",
+    "version": "2.2.9",
     "zoom": 83
 }
