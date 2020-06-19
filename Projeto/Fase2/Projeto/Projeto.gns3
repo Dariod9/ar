@@ -1080,7 +1080,7 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/1",
-                            "x": 6,
+                            "x": 4,
                             "y": -11
                         },
                         "node_id": "19415e6d-90d7-4862-9e90-c09dcd5d0043",
@@ -1716,6 +1716,37 @@
                             "y": 33
                         },
                         "node_id": "74755457-aa86-4ae4-ac28-ff1c4ff77cfc",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "ac90add3-db30-4090-bc18-208a961bf93e",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -2,
+                            "y": -5
+                        },
+                        "node_id": "19415e6d-90d7-4862-9e90-c09dcd5d0043",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 64,
+                            "y": 66
+                        },
+                        "node_id": "0f214ddb-7af0-4fa3-b30b-fc49ab25f22d",
                         "port_number": 0
                     }
                 ],
