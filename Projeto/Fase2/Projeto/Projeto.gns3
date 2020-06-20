@@ -1766,8 +1766,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Lis_ISP_PT1",
-                    "x": -32,
-                    "y": 53
+                    "x": 17,
+                    "y": 80
                 },
                 "locked": false,
                 "name": "Lis_ISP_PT1",
@@ -1888,7 +1888,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": -609,
+                "x": -610,
                 "y": 155,
                 "z": 1
             },
@@ -2152,8 +2152,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Bos_ISP_US2",
-                    "x": 54,
-                    "y": 50
+                    "x": -34,
+                    "y": 77
                 },
                 "locked": false,
                 "name": "Bos_ISP_US2",
@@ -2452,8 +2452,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": 70,
-                "y": 325,
+                "x": 69,
+                "y": 323,
                 "z": 1
             },
             {
@@ -3174,8 +3174,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": -136,
-                "y": 578,
+                "x": -95,
+                "y": 464,
                 "z": 1
             },
             {
@@ -3563,5 +3563,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.9",
-    "zoom": 83
+    "zoom": 59
 }
