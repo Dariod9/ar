@@ -4,3 +4,8 @@ SWAD1_1 - DMZ_SW1 -> Tunnel11 (ipsec)
 SWAD1_1 - DMZ_SW2 -> Tunnel12 (ipsec)
 SWAD1_2 - DMZ_SW1 -> Tunnel21 (ipsec)
 SWAD1_2 - DMZ_SW2 -> Tunnel22 (ipsec)
+SWAD2_1 - DMZ_SW1 -> Tunnel31 (ipsec)
+SWAD2_1 - DMZ_SW2 -> Tunnel32 (ipsec)
+SWAD2_2 - DMZ_SW1 -> Tunnel41 (ipsec)
+SWAD2_2 - DMZ_SW2 -> Tunnel42 (ipsec)
+
