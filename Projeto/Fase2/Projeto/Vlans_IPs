@@ -79,11 +79,12 @@ SWAD1_1 - 10.10.0.30/32						(DONE)
 #########################################################
 2200:20:20:3000::/64 ipv6 para a comunicação entre polos
 Aveiro ISP_PT1 -> 2200:20:20:3000::1/64
-Aveiro ISP_PT2(tunel 60) -> 2200:20:20:3000::2/64
-Aveiro ISP_PT2(tunel 61) -> 2200:20:20:3000::7/64
-Aveiro ISP_PT2(tunel 62) -> 2200:20:20:3000::8/64
+Aveiro ISP_PT2(tunel 60) -> 2200:20:20:3001::/126
+Aveiro ISP_PT2(tunel 61) -> 2200:20:20:3001::4/126
+Aveiro ISP_PT2(tunel 62) -> 2200:20:20:3001::8 /126
+Aveiro ISP_PT2(tunel 63) -> 2200:20:20:3001::c /126
 Lisboa ISP_PT1 -> 2200:20:20:3000::3/64
-Lisboa ISP_PT2(tunel) -> 2200:20:20:3000::4/64
+Lisboa ISP_PT2(tunel) -> 2200:20:20:3001::2/126
 Boston ISP1 -> 2200:20:20:3000::5/64
 Boston ISP2 -> 2200:20:20:3000::6/64
 

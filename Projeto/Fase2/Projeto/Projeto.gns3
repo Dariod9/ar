@@ -193,7 +193,7 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": 17,
+                            "x": 2,
                             "y": -15
                         },
                         "node_id": "b8f7adeb-507d-4255-a261-df43dbad6c16",
@@ -255,8 +255,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/1",
-                            "x": -7,
-                            "y": 22
+                            "x": 0,
+                            "y": 26
                         },
                         "node_id": "b8f7adeb-507d-4255-a261-df43dbad6c16",
                         "port_number": 1
@@ -1608,7 +1608,7 @@
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/2",
                             "x": -12,
-                            "y": 36
+                            "y": 57
                         },
                         "node_id": "def117fb-c237-4a2a-8934-27e8c2e670e2",
                         "port_number": 2
@@ -1784,7 +1784,7 @@
                     "dynamips_id": 1,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "0x60608040",
+                    "idlepc": "0x0",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.151-4.M2.image",
                     "image_md5sum": "d54b063e3d0b368a702ffb49f497825e",
@@ -1819,8 +1819,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": -850,
-                "y": 157,
+                "x": -827,
+                "y": 125,
                 "z": 1
             },
             {
@@ -1888,8 +1888,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": -610,
-                "y": 155,
+                "x": -602,
+                "y": 122,
                 "z": 1
             },
             {
@@ -1917,8 +1917,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -870,
-                "y": -114,
+                "x": -831,
+                "y": -123,
                 "z": 1
             },
             {
@@ -2067,8 +2067,8 @@
                 "symbol": ":/symbols/affinity/square/gray/satellite_dish.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 60,
-                "x": -578,
-                "y": -216,
+                "x": -573,
+                "y": -227,
                 "z": 1
             },
             {
@@ -2136,8 +2136,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": 632,
-                "y": 133,
+                "x": 590,
+                "y": 106,
                 "z": 1
             },
             {
@@ -2205,8 +2205,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": 859,
-                "y": 132,
+                "x": 810,
+                "y": 110,
                 "z": 1
             },
             {
@@ -2285,8 +2285,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": 778,
-                "y": -87,
+                "x": 688,
+                "y": -95,
                 "z": 1
             },
             {
@@ -2314,8 +2314,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 793,
-                "y": -266,
+                "x": 688,
+                "y": -264,
                 "z": 1
             },
             {
@@ -2383,8 +2383,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": -159,
-                "y": 334,
+                "x": -147,
+                "y": 316,
                 "z": 1
             },
             {
@@ -2452,8 +2452,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 66,
-                "x": 69,
-                "y": 323,
+                "x": 48,
+                "y": 314,
                 "z": 1
             },
             {
@@ -2623,7 +2623,7 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "68448bd6-8da4-426f-8664-0c70ebc583d3",
                 "width": 51,
-                "x": -338,
+                "x": -335,
                 "y": 34,
                 "z": 1
             },
@@ -2680,8 +2680,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "68448bd6-8da4-426f-8664-0c70ebc583d3",
                 "width": 51,
-                "x": 10,
-                "y": 30,
+                "x": -18,
+                "y": 22,
                 "z": 1
             },
             {
@@ -2737,8 +2737,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "68448bd6-8da4-426f-8664-0c70ebc583d3",
                 "width": 51,
-                "x": 123,
-                "y": 28,
+                "x": 108,
+                "y": 18,
                 "z": 1
             },
             {
@@ -2938,8 +2938,8 @@
                 "symbol": ":/symbols/affinity/square/gray/user.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 60,
-                "x": -75,
-                "y": -330,
+                "x": -72,
+                "y": -336,
                 "z": 1
             },
             {
@@ -3007,8 +3007,8 @@
                 "symbol": ":/symbols/affinity/square/gray/satellite_dish.svg",
                 "template_id": "b22ec732-b607-47b6-86fc-2797053d2324",
                 "width": 60,
-                "x": -432,
-                "y": -217,
+                "x": -430,
+                "y": -225,
                 "z": 1
             },
             {
@@ -3036,8 +3036,8 @@
                 "symbol": ":/symbols/affinity/square/gray/user.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 60,
-                "x": -390,
-                "y": -331,
+                "x": -384,
+                "y": -324,
                 "z": 1
             },
             {
@@ -3203,8 +3203,8 @@
                 "symbol": ":/symbols/affinity/square/gray/user.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 60,
-                "x": -285,
-                "y": -323,
+                "x": -277,
+                "y": -320,
                 "z": 1
             },
             {
@@ -3289,8 +3289,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "68448bd6-8da4-426f-8664-0c70ebc583d3",
                 "width": 51,
-                "x": -197,
-                "y": 29,
+                "x": -196,
+                "y": 33,
                 "z": 1
             },
             {
@@ -3346,8 +3346,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "68448bd6-8da4-426f-8664-0c70ebc583d3",
                 "width": 51,
-                "x": 245,
-                "y": 10,
+                "x": 248,
+                "y": 0,
                 "z": 1
             },
             {
@@ -3403,8 +3403,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "68448bd6-8da4-426f-8664-0c70ebc583d3",
                 "width": 51,
-                "x": 384,
-                "y": 12,
+                "x": 381,
+                "y": 1,
                 "z": 1
             },
             {
@@ -3525,8 +3525,8 @@
                 "symbol": ":/symbols/vbox_guest.svg",
                 "template_id": "e758fb03-d983-4a1c-ad56-d18dc13d504a",
                 "width": 65,
-                "x": 332,
-                "y": -266,
+                "x": 322,
+                "y": -239,
                 "z": 1
             },
             {
@@ -3563,5 +3563,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.9",
-    "zoom": 59
+    "zoom": 42
 }
